@@ -275,6 +275,7 @@ header {
 .question {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .question h4 {
@@ -490,9 +491,14 @@ footer a {
   }
   .borderLeftMission {
     margin-bottom: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.699);
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .check span {
     transform: scale(1);
+    margin-right: -7px;
   }
   .right {
     width: 100%;
@@ -524,7 +530,6 @@ footer a {
     line-height: 23px;
   }
 
-
   #project {
     margin-top: 50px;
   }
@@ -532,8 +537,68 @@ footer a {
   #project h3 {
     font-size: 1.1rem;
   }
+
   .projectBorder {
     margin-top: 20px;
     width: 40%;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+  .projectTXT h5 {
+    font-size: 1.1rem;
+  }
+  .projectTXT {
+    padding: 25px 5px;
+  }
+  .projectTXT p {
+    font-size: 0.8rem;
+    line-height: 22px;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  .contactLeft {
+    width: 95%;
+  }
+
+  .faq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .question h4 {
+    font-size: 1rem;
+  }
+  .faq p {
+    font-size: 0.8rem;
+    line-height: 22px;
+  }
+  .contactRight {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contactRight h3 {
+    font-size: 1.1rem;
+  }
+
+  .contactRight p {
+    font-size: 0.9rem;
+  }
+
+  .contactRight div a {
+    font-size: 0.75rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  footer a {
+    font-size: 0.7rem;
   }
 }
