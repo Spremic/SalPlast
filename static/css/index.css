@@ -1,0 +1,539 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+.aboutUsText h1,
+.aboutUsText p,
+.teamContainer h2 {
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: #f5f5f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.projectHidden,
+.readMoreP {
+  display: none;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.saleHeader {
+  font-size: 1.5rem;
+}
+.sloganHeader {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.63);
+}
+#hamburger {
+  margin-bottom: -7px;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+#wallper img {
+  width: 100%;
+  max-height: 850px;
+}
+#aboutUs {
+  margin-top: -120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutFirstDiv {
+  background-color: rgba(128, 128, 128, 0.74);
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 30px 140px;
+  border-radius: 3px;
+  text-align: center;
+}
+.aboutUsIcons,
+.aboutUsText {
+  background-color: #fff;
+}
+.aboutFirstDiv p {
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
+.aboutUsText {
+  width: 600px;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+.aboutUsIcons span {
+  transform: scale(2.5);
+  border-radius: 50%;
+}
+.aboutUsText h1 {
+  margin-top: 10px;
+}
+.aboutUsText p {
+  font-size: 0.95rem;
+  line-height: 25px;
+}
+.aboutUsText span {
+  font-size: 0.8rem;
+  color: grey;
+  cursor: pointer;
+}
+.border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+  width: 80%;
+  margin: 50px auto 30px;
+}
+#team {
+  display: grid;
+  place-content: center;
+}
+.teamContainer {
+  width: 1000px;
+  text-align: justify;
+}
+.left,
+.right {
+  width: 50%;
+}
+#project h3,
+.left,
+.projectTXT,
+.teamContainer h2 {
+  text-align: center;
+}
+.teamContainer p {
+  font-size: 1.05rem;
+}
+#mission {
+  margin-top: 50px;
+}
+.missionContainer {
+  display: flex;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.left,
+.stepContainer div span {
+  display: grid;
+  place-content: center;
+}
+.left h3 {
+  font-size: 3rem;
+}
+.borderLeftMission {
+  border: 3px solid rgba(255, 0, 0, 0.699);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.check {
+  display: flex;
+  margin-top: 20px;
+}
+.check span {
+  color: #00f;
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+.check p {
+  color: #000;
+  font-size: 1rem;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right img {
+  width: 500px;
+}
+.stepContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.stepContainer div {
+  margin-top: 50px;
+  width: 40%;
+  text-align: justify;
+}
+.projectBorder,
+.projectTXT p {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stepContainer div span {
+  margin-bottom: 50px;
+  transform: scale(2);
+  color: rgba(255, 0, 0, 0.815);
+}
+.stepContainer div h4 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.stepContainer div p {
+  font-size: 1rem;
+  line-height: 25px;
+}
+#project {
+  margin-top: 70px;
+}
+#project h3 {
+  font-size: 2rem;
+  color: rgba(255, 0, 0, 0.596);
+}
+.projectBorder {
+  border-bottom: 1px solid #333;
+  width: 350px;
+}
+.projectContainerDIV {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projectContainer {
+  max-width: 800px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 0 10px #000;
+}
+.projectTXT {
+  padding: 10px 10px 30px;
+}
+.projectTXT h5 {
+  color: rgba(2, 2, 122, 0.801);
+  font-size: 1.5rem;
+}
+.projectTXT p {
+  max-width: 500px;
+  font-size: 1rem;
+  color: #333;
+}
+.projectContainer img {
+  width: 100%;
+  height: 350px;
+  padding: 3px;
+}
+.projectContainerDIV span {
+  cursor: pointer;
+  padding: 10px;
+  transform: scale(1.5);
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+#contact span {
+  cursor: pointer;
+}
+
+.contactLeft {
+  width: 50%;
+}
+
+.faq {
+  background-color: #f5f5f5;
+
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  max-width: 900px;
+}
+
+.faq p {
+  font-size: 1rem;
+  line-height: 27px;
+  max-width: 900px;
+}
+.answer {
+  display: none;
+}
+
+.contactRight {
+  display: grid;
+  place-content: center;
+  width: 50%;
+}
+
+.contactRight h3 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.contactRight div {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.contactRight div span {
+  margin-right: 10px;
+}
+.contactRight p {
+  font-size: 1.3rem;
+}
+.contactRight div a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #333;
+  display: grid;
+  place-content: center;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+footer a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  #wallper img {
+    height: 500px;
+  }
+  #aboutUs {
+    margin-top: -115px;
+    flex-direction: column;
+  }
+  .teamContainer {
+    width: 740px;
+  }
+  .teamContainer p {
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+  .right img {
+    margin-top: 70px;
+  }
+
+  .projectContainer {
+    max-width: 1000px;
+  }
+
+  .projectContainer img {
+    height: 190px;
+  }
+
+  .projectTXT {
+    padding: 8px 5px;
+  }
+
+  .projectTXT h5 {
+    font-size: 1.3rem;
+  }
+
+  .projectTXT p {
+    font-size: 0.95rem;
+    line-height: 25px;
+  }
+
+  .projectContainerDIV span {
+    padding: 5px;
+    transform: scale(1);
+  }
+  .missionContainer {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 750px;
+  }
+
+  .stepContainer div p {
+    font-size: 0.9rem;
+  }
+
+  /* ovde */
+
+  .contactRight h3 {
+    font-size: 1.9rem;
+  }
+  .contactRight p {
+    font-size: 1.1rem;
+  }
+
+  .contactRight div a {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .saleHeader {
+    font-size: 1rem;
+  }
+
+  #wallper img {
+    height: 320px;
+  }
+  #hamburger {
+    margin-bottom: -4px;
+    transform: scale(1);
+  }
+
+  #aboutUs {
+    margin-top: -46px;
+  }
+  .aboutFirstDiv {
+    font-size: 1rem;
+    padding: 25px 110px;
+  }
+  .aboutFirstDiv p {
+    display: none;
+  }
+
+  .aboutUsText {
+    width: 97%;
+  }
+
+  .aboutUsIcons span {
+    transform: scale(2.1);
+  }
+
+  .aboutUsText h1 {
+    font-size: 1.1rem;
+  }
+  .aboutUsText p {
+    font-size: 0.8rem;
+    line-height: 22px;
+  }
+  .aboutUsText span {
+    font-size: 0.65rem;
+  }
+
+  .border {
+    width: 92%;
+  }
+  .teamContainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .teamContainer p {
+    line-height: 23px;
+    font-size: 0.83rem;
+  }
+  #mission {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .missionContainer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  .left h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .left p {
+    font-size: 0.8rem;
+    line-height: 22px;
+  }
+  .borderLeftMission {
+    margin-bottom: 10px;
+  }
+  .check span {
+    transform: scale(1);
+  }
+  .right {
+    width: 100%;
+  }
+  .right img {
+    width: 100%;
+  }
+  .stepContainer {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  .stepContainer div {
+    text-align: center;
+    width: 95%;
+  }
+
+  .stepContainer div span {
+    margin-bottom: 25px;
+    transform: scale(1.5);
+  }
+
+  .stepContainer div h4 {
+    font-size: 1.1rem;
+  }
+
+  .stepContainer div p {
+    font-size: 0.8rem;
+    line-height: 23px;
+  }
+
+
+  #project {
+    margin-top: 50px;
+  }
+
+  #project h3 {
+    font-size: 1.1rem;
+  }
+  .projectBorder {
+    margin-top: 20px;
+    width: 40%;
+  }
+}
