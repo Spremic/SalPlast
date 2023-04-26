@@ -16,7 +16,9 @@ header {
 }
 header div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
+  margin-inline: 20px;
 
   align-items: center;
 }
@@ -34,7 +36,6 @@ header div span {
 #image {
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
 }
 
@@ -60,9 +61,19 @@ footer {
   margin-top: 150px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 530px) {
   #image div img,
   #image div video {
     height: 450px;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+  header {
+    width: 100%;
+  }
+  header div span {
+    transform: scale(1.3);
   }
 }
