@@ -1,6 +1,36 @@
 let slike = [
   {
-    slika: "/static/image/folder/IMG_1941.jpeg",
+    slika: "/static/image/folder/1.JPG",
+  },
+  {
+    slika: "/static/image/folder/21.JPG",
+  },
+  {
+    slika: "/static/image/folder/22.JPG",
+  },
+  {
+    slika: "/static/image/folder/23.JPG",
+  },
+  {
+    slika: "/static/image/folder/24.JPG",
+  },
+  {
+    slika: "/static/image/folder/26.JPG",
+  },
+  {
+    slika: "/static/image/folder/35.JPG",
+  },
+  {
+    slika: "/static/image/folder/36.JPG",
+  },
+  {
+    slika: "/static/image/folder/37.JPG",
+  },
+  {
+    slika: "/static/image/folder/38.JPG",
+  },
+  {
+    slika: "/static/image/folder/39.JPG",
   },
 ];
 
